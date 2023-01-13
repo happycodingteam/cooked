@@ -1,0 +1,983 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+#myDIV {
+    margin-top: 120px;
+}
+
+/* ====================================================================== */
+/* ==========================START ANALYTCS PAGE========================= */
+/* ====================================================================== */
+.analysticsButtonArea {}
+
+.analysticsButtonArea .analyticsUl {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.analysticsButtonArea .analyticsUl .analyticsList {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    color: #272937;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(39, 41, 55, 0.12);
+    cursor: pointer;
+}
+
+.analysticsButtonArea .analyticsUl .analyticsList:hover {
+    color: #95E1D3;
+    border-bottom: 1px solid #95E1D3;
+}
+
+.listActive {
+    color: #95E1D3 !important;
+    border-bottom: 1px solid #95E1D3 !important;
+}
+
+.analyticsBodyArea {
+    margin-top: 84px;
+}
+
+.analyticsItemArea {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.analyticsItem {
+    background: #FFFFFF;
+    border: 1px solid rgba(39, 41, 55, 0.12);
+    border-radius: 10px;
+    padding: 7px;
+    height: 118px;
+    width: 118px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 33px;
+}
+
+.analyticsItem .analyticsItemName {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    color: #000000;
+}
+
+.analyticsItem .analyticsItemIcon {}
+
+.analyticsItem .analyticsItemCount {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    color: #000000;
+}
+
+.commingSoon {
+    margin-top: 69px;
+}
+
+.commingSoon .commingSoonText {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    color: #000000;
+}
+
+/* ====================================================================== */
+/* ============================END ANALYTCS PAGE========================= */
+/* ====================================================================== */
+/* ====================================================================== */
+/* ===========================START PRODUCT PAGE========================= */
+/* ====================================================================== */
+.cookbooksHeadingArea {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.cookbooksHeadingArea .cookbookHeadingText {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    margin-right: 97px;
+    display: inline-block;
+}
+
+.cookbooksHeadingArea .addNewButton {
+    border: none;
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #95E1D3;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.cookbooksHeadingArea .addNewButton .plusIcon {}
+
+.cookbooksHeadingArea .addNewButton .buttonText {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    margin-left: 8px;
+    color: #FFFFFF;
+}
+
+.mainProductArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300;
+}
+
+.productItem {
+    background: #FFFFFF;
+    border: 1px solid rgba(39, 41, 55, 0.12);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    flex-basis: 30%;
+}
+
+.productItem .productImage {
+    width: 100%;
+    height: 200px;
+}
+
+.productItem .productDetailsArea {
+    padding: 20px 20px 13px;
+}
+
+.productItem .productDetailsArea .productItemTitle {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    color: #272937;
+}
+
+.productItem .productDetailsArea .productItemText {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    color: rgba(39, 41, 55, 0.75);
+    padding: 12px 0px 15px;
+}
+
+.productItem .productDetailsArea .editArea {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.productItem .productDetailsArea .editArea .editLink {
+    display: inline-block;
+}
+
+.productItem .productDetailsArea .editArea .editLink .editIcon {
+    margin-right: 12px;
+}
+
+.productItem .productDetailsArea .editArea .deleteIcon {}
+
+.loadMorButtonArea {
+    padding: 33px 0px 39px;
+}
+
+.loadMorButtonArea .loadMoreButton {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    color: #95E1D3;
+    border: none;
+    background: none;
+    background: #FFFFFF;
+    padding: 14px 20px;
+    border: 1px solid #95E1D3;
+    border-radius: 8px;
+}
+
+.loadMorButtonArea .loadMoreButton:hover {
+    background-color: #95E1D3;
+    color: #ffffff;
+}
+
+/* ====================================================================== */
+/* ============================END PRODUCT PAGE========================= */
+/* ====================================================================== */
+/* ====================================================================== */
+/* ==========================START PRODUCT-02 PAGE======================= */
+/* ====================================================================== */
+.cookbooksHeadingArea {}
+
+.cookbooksHeadingArea .cookbookHeadingText {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.newCookbookFormArea {}
+
+.newCookbookForm {}
+
+.flexBoxTwo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.customWidth {
+    flex-basis: 50%;
+}
+
+.cookBookFormGroup {
+    margin-bottom: 66px;
+}
+
+.cookBookFormGroup .formLabel {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.cookBookFormGroup .formInput {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    color: rgba(0, 0, 0, 1);
+    padding: 14px 20px;
+    background: #FFFFFF;
+    border: 1px solid rgba(39, 41, 55, 0.12);
+    border-radius: 8px;
+    width: 100%;
+}
+
+.cookBookFormGroup .formInput::placeholder {
+    color: rgba(39, 41, 55, 0.35);
+}
+
+.cookBookFormGroup .formInput:-ms-input-placeholder {
+    color: rgba(39, 41, 55, 0.35);
+}
+
+.cookBookFormGroup .formInput::-ms-input-placeholder {
+    color: rgba(39, 41, 55, 0.35);
+}
+
+.cookBookFormGroup .fileUploadBox {
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px dashed rgba(39, 41, 55, 0.35);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 152px;
+    width: 50%;
+    flex-direction: column;
+}
+
+.customFormMargin {
+    margin-left: 80px;
+}
+
+.cookBookFormGroup .fileUploadBox .uploadIcon {
+    height: 24px;
+    width: 24px;
+}
+
+.cookBookFormGroup .fileUploadBox .dropText {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    color: #272937;
+    margin: 8px 0px;
+}
+
+.cookBookFormGroup .fileUploadBox .browserLink {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    color: #95E1D3;
+    text-decoration: underline;
+}
+
+.cookBookFormGroup .noteText {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    color: rgba(39, 41, 55, 0.35);
+    margin-top: 8px;
+}
+
+.cookBookFormGroup .descriptionTextarea {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    color: rgba(0, 0, 0, 1);
+    padding: 14px 20px;
+    background: #FFFFFF;
+    border: 1px solid rgba(39, 41, 55, 0.12);
+    border-radius: 8px;
+    width: 100%;
+    resize: none;
+}
+
+/* ====================================================================== */
+/* ============================END PRODUCT-02 PAGE======================= */
+/* ====================================================================== */
+/* ====================================================================== */
+/* ==========================START PRODUCT-03 PAGE======================= */
+/* ====================================================================== */
+.mainCountingArea {
+    margin-bottom: 69px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.countingItem {
+    margin-right: 77px;
+}
+
+.countingHeading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 17px;
+}
+
+.countingHeading .countingLogo {
+    margin-right: 12px;
+}
+
+.countingHeading .countingName {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.countingButtonArea {}
+
+.buttonItem {}
+
+.buttonItem .labelText {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    color: #272937;
+}
+
+.countingButton {
+    background: #FFFFFF;
+    border: 1px solid rgba(39, 41, 55, 0.12);
+    border-radius: 8px;
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 121px;
+}
+
+.countingButton .minus {}
+
+.countingButton .countText {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    color: #272937;
+    border: none;
+    background: none;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+}
+
+.countingButton .plus {}
+
+.flexBoxThree {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.marginLeft {
+    margin-left: 24px;
+}
+
+.countingButton {}
+
+.countingButton .selectItem {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    color: #272937;
+    border: none;
+    background: none;
+    padding-right: 27px;
+}
+
+.countingButton .selectOption {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    color: #272937;
+}
+
+/* ====================================================================== */
+/* ============================END PRODUCT-03 PAGE======================= */
+/* ====================================================================== */
+/* ====================================================================== */
+/* ==========================START PRODUCT-04 PAGE======================= */
+/* ====================================================================== */
+.ingredientsArea {
+    width: 70%;
+}
+
+.ingreadientsItem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ingreadientsLeft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #E5E5E7;
+    border-bottom: 1px solid #E5E5E7;
+    padding: 16px 14px;
+    flex-basis: 60%;
+}
+
+.ingreadientsLeft .ingreadientName {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    color: #272937;
+    width: 70%;
+}
+
+.ingreadientsLeft .ingreadientCount {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    color: #272937;
+    text-align: center;
+    width: 30%;
+}
+
+.ingreadientsRight {
+    flex-basis: 25%;
+}
+
+.ingreadientsRight .ingreadientSelect {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    color: #272937;
+    padding: 16px 14px;
+    background: #FFFFFF;
+    border: 1px solid rgba(39, 41, 55, 0.12);
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.ingreadientsRight .ingreadientSelect .ingreadientOption {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    color: #272937;
+    padding: 16px 14px;
+    background: #FFFFFF;
+    border: 1px solid rgba(39, 41, 55, 0.12);
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.addIngredients {
+    text-align: center;
+    margin-top: 39px;
+}
+
+.addIngredients .addIngredientsPlus {
+    cursor: pointer;
+}
+
+.eneterRecipeBox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 152px;
+    margin-left: 15px;
+    flex-basis: 60%;
+}
+
+.customWidthTwo {
+    flex-basis: 50%;
+}
+
+.flexBoxFour {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* ====================================================================== */
+/* ============================END PRODUCT-04 PAGE======================= */
+/* ====================================================================== */
+/* ====================================================================== */
+/* ==========================START CREATOR PAGE========================== */
+/* ====================================================================== */
+.creatorFormArea {}
+
+.creatorForm {}
+
+.creatorInformationArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.formLeft {
+    flex-basis: 60%;
+}
+
+.formLeft .creatorInfo {
+    margin-bottom: 80px;
+}
+
+.formLeft .creatorInfo .creatroInfoLabel {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.formLeft .creatorInfo .creatroInfoInput {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    color: rgba(0, 0, 0, 1);
+    background: #FFFFFF;
+    border: 1px solid rgba(39, 41, 55, 0.12);
+    border-radius: 8px;
+    padding: 14px 20px;
+    width: 100%;
+    margin: 12px 0px 17px;
+}
+
+.creatorNote {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.creatorNote .alartIcon {}
+
+.creatorNote .alartNote {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.42);
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.formLeft .creatorInfo .creatorTextarea {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    color: rgba(0, 0, 0, 1);
+    background: #FFFFFF;
+    border: 1px solid rgba(39, 41, 55, 0.12);
+    border-radius: 8px;
+    padding: 14px 20px;
+    width: 100%;
+    margin: 12px 0px 17px;
+    resize: none;
+    height: 100px;
+}
+
+.formRight {
+    flex-basis: 38%;
+}
+
+.cookBookFormGroup .creatorCoverPhoto {
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px dashed rgba(39, 41, 55, 0.35);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 311px !important;
+    width: 50%;
+    flex-direction: column;
+}
+
+.popupPosition {
+    position: relative;
+}
+
+.poupTextArea {
+    background: #FFFFFF;
+    border: 1px solid rgba(39, 41, 55, 0.12);
+    border-radius: 5px;
+    padding: 6px 8px;
+    display: inline-block;
+    position: absolute;
+    top: -39px;
+    left: 90px;
+    display: none;
+}
+
+.poupTextArea .popUpText {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    color: #272937;
+    position: relative;
+}
+
+.poupTextArea .popUpText::after {
+    content: "";
+    clear: both;
+    position: absolute;
+    bottom: -17px;
+    left: 22%;
+    background: url(../images/creator-page/Corner.svg) no-repeat scroll 0 0 / 100% 100%;
+    height: 20px;
+    width: 20px;
+}
+
+.coverBox {
+    left: 40px;
+}
+
+.socialBox {
+    left: 49px;
+}
+
+.productBox {
+    left: 61px;
+}
+
+.socilaMediaLinkArea {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.socialMediaItem {
+    position: relative;
+    flex-basis: 31%;
+    margin-right: 2%;
+    margin-bottom: 22px;
+}
+
+.socialMediaItem .socialMedialInput {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    color: rgba(39, 41, 55, 1);
+    padding: 14px 20px 14px 46px;
+    background: #FFFFFF;
+    border: 1px solid rgba(39, 41, 55, 0.12);
+    border-radius: 8px;
+    width: 100%;
+}
+
+.socialMediaItem .socialMediaIcon {
+    position: absolute;
+    top: 18px;
+    left: 10px;
+}
+
+.socialMediaItem .youtube {
+    top: 21px;
+    left: 10px;
+}
+
+.addProductArea {
+    margin-top: 44px;
+}
+
+.addProductItem {
+    background: #ffffff;
+    border: 1px solid rgba(39, 41, 55, 0.12);
+    border-radius: 11px;
+    display: inline-block;
+    padding: 15px 10px;
+}
+
+.addProductItem .productImage {
+    padding: 70px 0px 35px;
+}
+
+.productEditArea {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.saveButtonArea {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.saveButton {
+    border: none;
+    background: none;
+    background: #95E1D3;
+    border-radius: 8px;
+    padding: 14px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.saveButton .saveButtonIcon {
+    margin-right: 10px;
+}
+
+.saveButton .saveButtonText {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    color: #FFFFFF;
+}
+
+
+
+/* ---------------------Start Pop Up Css--------------------------- */
+
+.popUpPossition{
+    position: relative;
+}
+.effect{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #6e6a6a17;
+}
+.addNewProductPopUp {
+	background: #FFFFFF;
+	border: 1px solid rgba(39, 41, 55, 0.12);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+	width: 383px;
+	padding: 24px 60px 15px;
+	position: fixed;
+	z-index: 9999;
+	top: 153px;
+	left: 32%;
+}
+.popUPCrose{
+    text-align: right;
+    position: relative;
+}
+.corseIcon {
+	position: absolute;
+	top: 0px;
+	right: -40px;
+    cursor: pointer;
+}
+
+.addNewProductHeading{
+    margin-bottom: 21px;
+    margin-top: 30px;
+}
+.addNewProductHeading .headingText{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.addProductFormGroup{
+    margin-bottom: 21px;
+}
+.addProductFormGroup .formLabel{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: -0.1px;
+color: #272937;
+}
+.addProductFormGroup .formInput{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.6px;
+color: rgba(39, 41, 55, 1);
+padding: 14px 20px;
+width: 100%;
+background: #FFFFFF;
+border: 1px solid rgba(39, 41, 55, 0.12);
+border-radius: 8px;
+
+}
+.submitButtonArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cancleButton{
+    background: #FF3A30;
+border-radius: 8px;
+}
+.submitButtonArea .saveButton{
+    margin: 0px 7px;
+}
+#addProduct{
+    display: none;
+}
+/* ---------------------End Pop Up Css--------------------------- */
+/* ====================================================================== */
+/* ============================END CREATOR PAGE========================== */
+/* ====================================================================== */
