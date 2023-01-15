@@ -37,7 +37,6 @@ h6 {
     padding: 0;
 }
 
-
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -45,30 +44,29 @@ body {
 /*=========================================*/
 /*==========Start Header Section==========*/
 /*=========================================*/
-.mainHeaderWithHeroArea {
+.mainHeaderWithHeroArea {}
 
-}
-.learnAbout{
+.learnAbout {
     padding-top: 31px;
     padding-left: 140px;
 }
+
 .learnArea {
-	padding: 360px 0px 320px;
+    padding: 360px 0px 320px;
 }
-.learnArea .learnHeadingText{
+
+.learnArea .learnHeadingText {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 600;
     font-size: 34px;
     line-height: 40px;
     color: #000000;
-
-
 }
-.appArea{
-    
-}
-.appArea .findAppText{
+
+.appArea {}
+
+.appArea .findAppText {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 600;
@@ -76,38 +74,55 @@ body {
     line-height: 21px;
     color: #000000;
 }
-.downloadApp{
+
+.downloadApp {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin-top: 35px;
 }
-.downloadApp .appLink{}
-.downloadApp .appLink .appIcon{
+
+.downloadApp .appLink {}
+
+.downloadApp .appLink .appIcon {
     height: 40px;
     width: 40px;
 }
-.foodAreaWithMenu{
-    background: url(../images/All-background/01.png)no-repeat scroll 0 0 / 100% 100%;
-    height: 100vh;
+
+.foodAreaWithMenu {
     padding-top: 39px;
 }
-.maniMenuArea {
-  
-}
-.foodTextArea{
-    padding: 290px 0px 0px ;
 
+.foodBg {
+    background: url(../images/All-background/01.png)no-repeat scroll 0 0 / 100% 100%;
+    height: 100vh;
 }
-.foodTextArea .foodText{
+
+.regBg {
+    background: url(../images/All-background/reg-bg.png)no-repeat scroll 0 0 / 100% 100%;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+}
+
+.loginBg {
+    background: url(../images/All-background/login-bg.png)no-repeat scroll 0 0 / 100% 100%;
+    height: 100vh;
+}
+
+.maniMenuArea {}
+
+.foodTextArea {
+    padding: 290px 0px 0px;
+}
+
+.foodTextArea .foodText {
     font-family: 'Prata';
-font-style: normal;
-font-weight: 400;
-font-size: 90px;
-line-height: 122px;
-color: #FFFFFF;
-
-
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 122px;
+    color: #FFFFFF;
 }
 
 .logoArea {}
@@ -153,7 +168,6 @@ color: #FFFFFF;
     line-height: 21px;
     padding: 0px 26px;
     color: #FFFFFF;
-    
 }
 
 .maniMenuArea .logoLink {
@@ -162,14 +176,9 @@ color: #FFFFFF;
     display: none;
 }
 
-.maniMenuArea .logoLink .responsiveLogo {
-    height: 47px;
-    width: 165px;
-   
-}
+.loginButtonArea {}
 
-.loginButtonArea{}
-.loginButtonArea .loginButton{
+.loginButtonArea .loginButton {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 600;
@@ -182,9 +191,7 @@ color: #FFFFFF;
     border: 1px solid #FFFFFF;
     border-radius: 8px;
     padding: 10px 16px;
-
 }
-
 
 .responsiveButton {
     display: none;
@@ -199,8 +206,8 @@ color: #FFFFFF;
 .maniMenuArea .menu-icon {
     cursor: pointer;
     display: inline-block;
-    float: left;
-    padding: 17px 20px;
+    float: right;
+    padding: 17px 40px;
     position: relative;
     user-select: none;
     z-index: 999999;
@@ -244,8 +251,8 @@ color: #FFFFFF;
 }
 
 .maniMenuArea .menu-btn:checked ~ .menu-icon .navicon {
-	background: transparent;
-	position: fixed;
+    background: transparent;
+    position: fixed;
 }
 
 .maniMenuArea .menu-btn:checked ~ .menu-icon .navicon:before {
@@ -284,13 +291,27 @@ color: #FFFFFF;
         justify-content: center !important;
         align-items: center !important;
     } */
-    .maniMenuArea .menu-btn:checked ~ .menuArea {
+
+    /* .maniMenuArea .menu-btn:checked ~ .menuArea {
         display: flex;
         justify-content: center !important;
         align-items: center !important;
         position: fixed;
         background: rgb(2, 0, 36);
         background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+    } */
+
+    .maniMenuArea .menu-btn:checked ~ .menuArea {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        position: fixed;
+        background: url(../images/All-background/menu.jpeg);
+        background-size: cover;
         width: 100%;
         height: 100vh;
         top: 0;
@@ -331,21 +352,18 @@ color: #FFFFFF;
 /* ------------------------------------------------------------ */
 /* --------------------Hero Area Start------------------------- */
 /* ------------------------------------------------------------ */
-
-
-
-
-
-
 /* ====================================================================== */
 /* ========================START REGISTER PAGE=========================== */
 /* ====================================================================== */
-.registerArea{}
-.mainRegisterForm{}
-.registerHeading{
+.registerArea {}
+
+.mainRegisterForm {}
+
+.registerHeading {
     margin-bottom: 35px;
 }
-.registerHeading .registerHeadingText{
+
+.registerHeading .registerHeadingText {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 600;
@@ -353,10 +371,12 @@ color: #FFFFFF;
     line-height: 21px;
     color: #000000;
 }
-.formGroup{
+
+.formGroup {
     margin-bottom: 27px;
 }
-.formGroup .labelText{
+
+.formGroup .labelText {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
@@ -365,9 +385,9 @@ color: #FFFFFF;
     letter-spacing: 0.3px;
     color: #272937;
     margin-bottom: 8px;
-
 }
-.formGroup .inputBox{
+
+.formGroup .inputBox {
     border: none;
     background: none;
     font-family: 'Lato';
@@ -383,16 +403,20 @@ color: #FFFFFF;
     padding: 14px 20px;
     width: 40%;
 }
-.formGroup{}
-.formGroup .flexBoxOne{
+
+.formGroup {}
+
+.formGroup .flexBoxOne {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-.m-right{
+
+.m-right {
     margin-right: 23px;
 }
-.formGroup .platformSelect{
+
+.formGroup .platformSelect {
     border: none;
     background: none;
     font-family: 'Lato';
@@ -408,11 +432,14 @@ color: #FFFFFF;
     padding: 17px 20px;
     width: 40%;
 }
-.formGroup .plusButton{
+
+.formGroup .plusButton {
     cursor: pointer;
 }
-.formGroup{}
-.formGroup .textareaBox{
+
+.formGroup {}
+
+.formGroup .textareaBox {
     border: none;
     background: none;
     font-family: 'Lato';
@@ -428,12 +455,16 @@ color: #FFFFFF;
     padding: 14px 20px;
     width: 93%;
     resize: none;
+    height: 200px;
 }
-.m-top{
+
+.m-top {
     margin-top: 81px;
 }
-.formGroup{}
-.formGroup .submitButton{
+
+.formGroup {}
+
+.formGroup .submitButton {
     border: none;
     background: none;
     font-family: 'Lato';
@@ -445,12 +476,14 @@ color: #FFFFFF;
     color: rgba(39, 41, 55, 0.35);
     padding: 14px 20px;
 }
-.formGroup .submitButton:hover{
+
+.formGroup .submitButton:hover {
     color: #FFFFFF;
     background: #95E1D3;
-border-radius: 8px;
+    border-radius: 8px;
 }
-.formGroup .noAccount{
+
+.formGroup .noAccount {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 600;
@@ -460,7 +493,8 @@ border-radius: 8px;
     color: #000000;
     margin-top: 29px;
 }
-.formGroup .noAccount .registerLink{
+
+.formGroup .noAccount .registerLink {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 600;
@@ -468,30 +502,222 @@ border-radius: 8px;
     line-height: 24px;
     letter-spacing: -0.6px;
     color: #95E1D3;
-
 }
+
+.desktop {}
+
+.mobile {
+    display: none;
+}
+
 /* ====================================================================== */
 /* ==========================END REGISTER PAGE=========================== */
 /* ====================================================================== */
+/* ====================================================================== */
+/* ============================START TOPBAR============================== */
+/* ====================================================================== */
+/* start main topbar  */
+.mainTopHeader {
+    position: relative;
+    z-index: 1;
+    padding: 8px 25px;
+}
 
+.topBarHeader {
+    background: #FAFAFA;
+    ;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    left: 0 !important;
+    top: 0 !important;
+}
+
+.headerItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0;
+    margin-top: 0;
+    margin-right: 0;
+    background-color: #ffffff;
+    padding: 27px 2% 27px 23%;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.headerUser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+/* .headerUser img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+} */
+.userImageArea {
+    position: relative;
+}
+
+.userImageArea .userImage {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.userImageArea::before {
+    content: "";
+    position: absolute;
+    clear: both;
+    bottom: 0px;
+    right: 0px;
+    height: 15px;
+    width: 15px;
+    background: #4FC62B;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.headerUser {
+    cursor: pointer;
+}
+
+.headerUser .userName {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.8px;
+    color: #272937;
+    cursor: pointer;
+}
+
+.headerUser .userTitle {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    color: rgba(39, 41, 55, 0.75);
+}
+
+.headerUser .userDetails {}
+
+.topHeaderText .dashboardName {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+}
+
+/* end main top bar  */
+@media all and (max-width:481px) {
+    .topBarHeader {
+        width: 100% !important;
+        left: 0 !important;
+        top: 0 !important;
+    }
+}
+
+
+/*=======================Pup Up Profile End=========================*/
+.startProfileArea {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    padding: 14px 9px;
+    width: 152px;
+    position: fixed;
+    top: 100px;
+    right: 1%;
+    z-index: 99;
+    display: none;
+}
+
+.pupUpProfileUl .pupUpProfileList .pupUpProfileLink {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    color: #000000;
+    padding-bottom: 11px;
+}
+
+/*==========================Media Query=======================*/
+@media all and (max-width:577px) {
+    label #bars {
+        left: 20px;
+        z-index: 9999999999999999999;
+        top: 23px !important;
+    }
+
+    label #close {
+        top: 23px !important;
+        left: 20px;
+    }
+
+    .headerIcons img {
+        padding-right: 0 !important;
+    }
+
+    .headerUser span {
+        padding-right: 10px !important;
+    }
+
+    .headerIcons {
+        gap: 10px !important;
+    }
+
+    .headerItem {
+        gap: 10px !important;
+    }
+}
+
+@media all and (max-width:400px) {
+    .headerIcons img {
+        height: 30px !important;
+        width: 30px !important;
+    }
+
+    .headerUser span {
+        font-size: 13px !important;
+    }
+}
+
+@media all and (max-width:350px) {
+    .headerIcons {
+        gap: 5px !important;
+    }
+
+    .headerItem {
+        gap: 5px !important;
+    }
+
+    .topBarHeader {
+        padding-right: 0% !important;
+    }
+
+  
+}
 
 
 
 /* ====================================================================== */
-/* ==========================START DASHBOARD============================= */
+/* ============================END TOPBAR============================= */
 /* ====================================================================== */
-
-
-
-.sidebarLogoArea{}
-.sidebarLogoArea .sidebarLogoLink{}
-.sidebarLogoArea .sidebarLogoLink .sidebarLogo{}
-
-
-
-/* ====================================================================== */
-/* ============================END DASHBOARD============================= */
-/* ====================================================================== */
-
-
-

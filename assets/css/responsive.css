@@ -2,128 +2,384 @@
     .main_body {
         margin-right: 60px;
     }
+
+    .cookBookFormGroup .creatorCoverPhoto {
+        width: 100%;
+    }
+
+    .addNewProductPopUp {
+        width: 383px;
+        left: 30%;
+    }
+
+    .userFormGroup .userInput {
+        width: 80%;
+    }
+
+    .userFormGroup select {
+        width: 80%;
+    }
+
+    .rangeArea .rangeInput {
+        width: 60%;
+    }
+
+    .learnAbout {
+        padding-top: 31px;
+        padding-left: 30px;
+    }
+
+    .foodAreaWithMenu {
+        height: auto;
+        background-size: cover;
+    }
 }
 
 @media all and (max-width:1300px) {
     label #bars {
-        left: 20px;
-        z-index: 9999999999999999999;
-        top: 10px;
-    }
+	left: 5px;
+	z-index: 9999999999999999999;
+	top: 35px !important;
+	position: fixed;
+}
 
     label #close {
-        top: 10px;
-        left: 20px;
+        top: 45px;
+        left: 0px !important;
+    }
+}
+
+@media all and (max-width:991px) {
+    .cookBookFormGroup .creatorCoverPhoto {
+        width: 100%;
     }
 
-    @media all and (max-width:991px) {
-        .UpdateProfileFormGroup .updateProfileLabel {
-            font-size: 18px;
-        }
+    .addNewProductPopUp {
+        width: 383px;
+        left: 28%;
     }
 
-    @media all and (max-width:767px) {
-        .UpdateProfileOptionItem {
-            width: 100%;
-        }
-
-        .UpdateProfileFormGroup {
-            flex-basis: 100%;
-        }
-
-        .flexBox {
-            display: flex;
-            justify-content: unset;
-            align-items: unset;
-            margin-bottom: 0px;
-            flex-direction: column;
-        }
-
-        .UpdateProfileFormGroup .updateProfileInput {
-            margin-bottom: 30px;
-        }
-
-        .UpdateProfileFormGroup .stateSelectArea {
-            margin-bottom: 30px;
-        }
+    .mainProductArea {
+        flex-wrap: wrap;
     }
 
-    @media all and (max-width:577px) {
-        .uploadFile {
-            padding: 14px 13px;
-        }
+    .productItem {
+        flex-basis: 48%;
+        margin-bottom: 25px;
     }
 
-    @media all and (max-width:480px) {
-        .uploadPhotoOfLicencseArea {
-            display: flex;
-            justify-content: flex-start;
-            align-items: flex-start;
-            flex-direction: column;
-        }
-
-        .uploadFile {
-            margin-left: 0px;
-            margin-top: 15px;
-        }
-
-        .topHeader .topHeaderList {
-            margin-left: 14px;
-        }
-
-        label #bars {
-            top: 9px;
-        }
-
-        label #close {
-            top: 9px;
-        }
+    .cookBookFormGroup .fileUploadBox {
+        width: 100%;
     }
 
-    @media all and (max-width:400px) {
-        .UpdateProfileFormGroup .updateProfileLabel {
-            font-size: 16px;
-        }
-
-        .viewPermitbuttonArea .viewPermitButton {
-            font-size: 18px;
-        }
-
-        .topHeader .topHeaderList .userButton .userName {
-            display: none;
-        }
-
-        .topHeader .topHeaderList {
-            margin-left: 8px;
-        }
-
-        .toplogo .responsiveLogo {
-            display: block !important;
-            height: 38px;
-            width: 38px;
-            margin-top: 4px;
-            margin-left: 10px;
-        }
-
-        label #bars {
-            top: 13px !important;
-        }
-
-        .topHeader .topHeaderList .userButton {
-            margin-left: 0px;
-        }
-
-        .topHeader .topHeaderList .userButton .topHeaderUser {
-            margin-right: 4px;
-        }
+    .ingredientsArea {
+        width: 100%;
     }
 
-    @media all and (max-width:375px) {}
+    .userFormGroup .userInput {
+        width: 100%;
+    }
 
-    @media only screen and (max-width: 375px) and (min-width: 375px) {}
+    .userFormGroup select {
+        width: 100%;
+    }
 
-    @media only screen and (max-width: 360px) and (min-width: 360px) {}
+    .rangeArea .rangeInput {
+        width: 60%;
+    }
 
-    @media all and (max-width:359px) {}
+    .desktop {
+        display: none;
+    }
 
-    @media all and (max-width:350px) {}
+    .mobile {
+        display: block;
+    }
+
+    .pc-logo {
+        display: none;
+    }
+
+    .responsiveLogo {
+        display: inline-block;
+    }
+
+    .maniMenuArea .logoLink {
+        display: inline-block;
+    }
+
+    .foodTextArea {
+        padding: 100px 0px 80px;
+    }
+
+    .foodAreaWithMenu {
+        height: auto;
+        background-size: cover;
+    }
+
+    .foodBg {
+        height: auto;
+        background-size: cover;
+    }
+
+    .regBg {
+        height: auto;
+        background-size: cover;
+        position: unset;
+    }
+
+    .loginBg {
+        height: auto;
+        background-size: cover;
+    }
+
+    .learnArea {
+        padding: 60px 0px 70px;
+    }
+
+
+    .learnAbout {
+        padding-top: 31px;
+        padding-left: 13px;
+    }
+
+    .formGroup .inputBox {
+        width: 100%;
+    }
+
+    .formGroup .textareaBox {
+        width: 100%;
+        height: 150px;
+    }
+}
+
+@media all and (max-width:767px) {
+    .analyticsItem {
+        margin-right: 5px;
+    }
+
+    .creatorInformationArea {
+        flex-wrap: wrap;
+    }
+
+    .formLeft {
+        flex-basis: 100%;
+    }
+
+    .formRight {
+        flex-basis: 100%;
+    }
+
+    .formLeft .creatorInfo {
+        margin-bottom: 30px;
+    }
+
+    .socialMediaItem {
+        flex-basis: 48%;
+        margin-right: 2%;
+        margin-bottom: 22px;
+    }
+
+    .addNewProductPopUp {
+        width: 383px;
+        left: 18%;
+    }
+
+    .productItem {
+        flex-basis: 100%;
+        margin-bottom: 25px;
+    }
+
+    .customWidth {
+        flex-basis: 100%;
+    }
+
+    .customFormMargin {
+        margin-left: 0;
+    }
+
+    .cookBookFormGroup .descriptionTextarea {
+        height: 200px !important;
+    }
+
+    .flexBoxTwo {
+        flex-wrap: wrap;
+    }
+
+    .countingItem {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+
+    .mainCountingArea {
+        margin-bottom: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .countingHeading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+
+    .ingreadientsRight {
+        flex-basis: 40%;
+    }
+
+    .flexBoxFour {
+        flex-wrap: wrap;
+    }
+
+    .eneterRecipeBox {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 152px;
+        margin-left: 15px;
+        flex-basis: 100%;
+    }
+
+    .customWidthTwo {
+        flex-basis: 100%;
+    }
+
+    .cookBookFormGroup .fileUploadBox {
+        width: 91%;
+        margin-left: 9%;
+    }
+
+    .cookBookFormGroup .noteText {
+        margin-left: 9%;
+    }
+
+    .rangeArea .rangeInput {
+        width: 100%;
+    }
+
+    .paymentProfilHeading {
+        width: 100%;
+    }
+    .plusButton .addPlus {
+        cursor: pointer;
+        padding-left: 50%;
+    }
+}
+
+@media all and (max-width:577px) {
+    .analyticsItem {
+        width: 48%;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .analyticsItemArea {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .main_body {
+        margin: 20px;
+    }
+
+    .main_body {
+        margin-left: 20px;
+    }
+
+    .socialMediaItem {
+        flex-basis: 100%;
+        margin-right: 0;
+        margin-bottom: 22px;
+    }
+
+    .addNewProductPopUp {
+        width: 383px;
+        left: 10%;
+    }
+}
+
+@media all and (max-width:480px) {
+    .addNewProductPopUp {
+        width: 383px;
+        left: 2%;
+    }
+}
+
+@media all and (max-width:400px) {
+    .analysticsButtonArea .analyticsUl {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .analysticsButtonArea .analyticsUl .analyticsList {
+        width: 100%;
+        text-align: center;
+    }
+
+    .headerItem {
+        padding: 27px 2% 27px 11%;
+    }
+
+    .saveButtonArea {
+        margin-top: 20px;
+    }
+
+    .addNewProductPopUp {
+        padding: 24px 25px 15px;
+        width: 98%;
+        left: 1%;
+    }
+
+    .corseIcon {
+        right: -13px;
+    }
+
+    .ingreadientsLeft {
+        flex-basis: 50%;
+    }
+
+    .ingreadientsRight {
+        flex-basis: 50%;
+    }
+}
+
+@media all and (max-width:375px) {
+    .topHeaderText .dashboardName {
+        font-size: 20px;
+    }
+
+    .userImageArea .userImage {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .sidebarLogoArea {
+        margin: 38px 0px 46.5px;
+    }
+
+    label #bars {
+        left: 5px;
+        z-index: 9999999999999999999;
+        top: 33px !important;
+        position: fixed;
+    }
+}
+
+@media only screen and (max-height: 900px) and (min-height: 580px) {
+    /* .regBg {
+        height: 128vh;
+    } */
+
+    .learnArea {
+        padding: 246px 0px 260px;
+    }
+}

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="icon" href="assets/images/favicon.svg" type="image/gif" sizes="32x32">
+    <!-- ============================fontawesome cdn============================ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- ============================Font-family============================ -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Prata&family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- ============================Bootstrap link============================ -->
+    <link href="assets/vendor/css/bootstrap.min.v5.0.2.css" rel="stylesheet">
+    <!-- ============================Sidebar StyleSheet============================ -->
+    <link rel="stylesheet" href="assets/css/sidebar.css">
+    <!-- ============================Main StyleSheet============================ -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- ============================Main StyleSheet============================ -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- ============================Responsive StyleSheet============================ -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <!--===========================Start Top Header===================================-->
+    <header class="mainTopHeader">
+        <div class="container-fluid">
+            <!-- main topbar start  -->
+            <div class="topBarHeader">
+                <div class="headerItem">
+                    <div class="topHeaderText">
+                        <h1 class="dashboardName">Analystics</h1>
+                    </div>
+                    <div class="headerUser" id="userId">
+                        <div class="userImageArea">
+                            <img class="userImage" src="assets/images/user/user.png" alt="">
+                        </div>
+                        <div class="userDetails">
+                            <span class="userName">User</span>
+                            <p class="userTitle">Title</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- main topbar end  -->
+        </div>
+        <!--Start Profile Area-->
+        <div class="startProfileArea">
+            <ul class="pupUpProfileUl">
+                <li class="pupUpProfileList">
+                    <a class="pupUpProfileLink" href="#">Edit Profile</a>
+                </li>
+                <li class="pupUpProfileList">
+                    <a class="pupUpProfileLink" href="#">Manage Account</a>
+                </li>
+                <li class="pupUpProfileList">
+                    <a class="pupUpProfileLink" href="#">Settings</a>
+                </li>
+                <li class="pupUpProfileList">
+                    <a class="pupUpProfileLink" href="#">Help & Support</a>
+                </li>
+                <li class="pupUpProfileList">
+                    <a class="pupUpProfileLink" href="#">Logout</a>
+                </li>
+            </ul>
+        </div>
+        <!--/// End Profile Area-->
+    </header>
+    <!--===========================End Top Header===================================-->
+    <!--===========================Start Side Bar===================================-->
+    <div class="sidebars">
+        <input type="checkbox" id="check" />
+        <label for="check">
+            <i class="fas fa-bars menu_bar" id="bars"></i>
+            <i class="fa-sharp fa-solid fa-xmark close_bar" id="close" onclick="myFunctionTwo()"></i>
+        </label>
+        <div class="sidebar" style="background-color: #fff;">
+            <!--Side Bar Logo Area-->
+            <div class="sidebarLogoArea">
+                <a href="#" class="sidebarLogoLink">
+                    <img class="sidebarLogo" src="assets/images/cooked.svg" alt="">
+                </a>
+            </div>
+            <!--/// End Side Bar Logo Area-->
+            <ul class="sidebar_ul">
+                <li class="listItem">
+                    <a class="navLink" href="dashboard-home.html">
+                        <img class="navIcon mainIcon" src="assets/images/menuIcon/MANI_ICON/01.svg" alt="icon">
+                        <img class="navIcon hoverIcon" src="assets/images/menuIcon/HOVER/01.svg" alt="icon">
+                        <p class="navName">Dashboard</p>
+                    </a>
+                </li>
+                <li class="listItem">
+                    <a class="navLink" href="analytics-Overview.html">
+                        <img class="navIcon mainIcon" src="assets/images/menuIcon/MANI_ICON/02.svg" alt="icon">
+                        <img class="navIcon hoverIcon" src="assets/images/menuIcon/HOVER/02.svg" alt="icon">
+                        <p class="navName">Analystics</p>
+                    </a>
+                </li>
+                <li class="listItem">
+                    <a class="navLink" href="product.html">
+                        <img class="navIcon mainIcon" src="assets/images/menuIcon/MANI_ICON/03.svg" alt="icon">
+                        <img class="navIcon hoverIcon" src="assets/images/menuIcon/HOVER/03.svg" alt="icon">
+                        <p class="navName">Products</p>
+                    </a>
+                </li>
+                <li class="listItem">
+                    <a class="navLink" href="create-page.html">
+                        <img class="navIcon mainIcon" src="assets/images/menuIcon/MANI_ICON/04.svg" alt="icon">
+                        <img class="navIcon hoverIcon" src="assets/images/menuIcon/HOVER/04.svg" alt="icon">
+                        <p class="navName">Creator Page</p>
+                    </a>
+                </li>
+                <li class="listItem">
+                    <a class="navLink activeNav" href="setting.html">
+                        <img class="navIcon mainIcon" src="assets/images/menuIcon/MANI_ICON/05.svg" alt="icon">
+                        <img class="navIcon hoverIcon" src="assets/images/menuIcon/HOVER/05.svg" alt="icon">
+                        <p class="navName">Settings</p>
+                    </a>
+                </li>
+                <li class="listItem customMargin">
+                    <a class="navLink" href="#">
+                        <img class="navIcon mainIcon" src="assets/images/menuIcon/MANI_ICON/06.svg" alt="icon">
+                        <img class="navIcon hoverIcon" src="assets/images/menuIcon/HOVER/06.svg" alt="icon">
+                        <p class="navName">Feedback</p>
+                    </a>
+                </li>
+                <li class="listItem">
+                    <a class="navLink logoutActiveNav" href="index.html">
+                        <img class="navIcon mainIcon" src="assets/images/menuIcon/MANI_ICON/07.svg" alt="icon">
+                        <img class="navIcon hoverIcon" src="assets/images/menuIcon/HOVER/07.svg" alt="icon">
+                        <img class="navIcon activeIcon" src="assets/images/menuIcon/MANI_ICON/08.svg" alt="icon">
+                        <p class="navName logoutText">Logout</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--===========================Start Side Bar===================================-->
+    <!--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=Start Here Main Body-=-=-=-=-=-=-=-=-=-=-=-=-=-=--->
+    <div class="main_body" id="myDIV">
+        <!-- Analystics Button Area -->
+        <div class="analysticsButtonArea">
+            <ul class="analyticsUl">
+                <li class="analyticsList settingsButton listActive" id="generalInfo">Gerneral information</li>
+                <li class="analyticsList settingsButton" id="payment">Payments</li>
+                <li class="analyticsList settingsButton">Notifications</li>
+            </ul>
+        </div>
+        <!-- /// End Analystics Button Area -->
+        <!-- User Information Area -->
+        <div class="userInformationFormArea">
+            <form action="" class="userFormArea">
+                <div class="userFormGroup">
+                    <label class="labelText" for="">Name</label> <br>
+                    <input class="userInput" type="text">
+                </div>
+                <!--End form group-->
+                <div class="userFormGroup">
+                    <label class="labelText" for="">Email</label> <br>
+                    <input class="userInput" type="text">
+                </div>
+                <!--End form group-->
+                <div class="userFormGroup">
+                    <label class="labelText" for="">Preferred language for emails</label> <br>
+                    <select data-placeholder="Choose a Language...">
+                        <option value="AF">Select language</option>
+                        <option value="AF">Afrikaans</option>
+                        <option value="SQ">Albanian</option>
+                        <option value="AR">Arabic</option>
+                        <option value="HY">Armenian</option>
+                        <option value="EU">Basque</option>
+                        <option value="BN">Bengali</option>
+                        <option value="BG">Bulgarian</option>
+                        <option value="CA">Catalan</option>
+                        <option value="KM">Cambodian</option>
+                        <option value="ZH">Chinese (Mandarin)</option>
+                        <option value="HR">Croatian</option>
+                        <option value="CS">Czech</option>
+                        <option value="DA">Danish</option>
+                        <option value="NL">Dutch</option>
+                        <option value="EN">English</option>
+                        <option value="ET">Estonian</option>
+                        <option value="FJ">Fiji</option>
+                        <option value="FI">Finnish</option>
+                        <option value="FR">French</option>
+                        <option value="KA">Georgian</option>
+                        <option value="DE">German</option>
+                        <option value="EL">Greek</option>
+                        <option value="GU">Gujarati</option>
+                        <option value="HE">Hebrew</option>
+                        <option value="HI">Hindi</option>
+                        <option value="HU">Hungarian</option>
+                        <option value="IS">Icelandic</option>
+                        <option value="ID">Indonesian</option>
+                        <option value="GA">Irish</option>
+                        <option value="IT">Italian</option>
+                        <option value="JA">Japanese</option>
+                        <option value="JW">Javanese</option>
+                        <option value="KO">Korean</option>
+                        <option value="LA">Latin</option>
+                        <option value="LV">Latvian</option>
+                        <option value="LT">Lithuanian</option>
+                        <option value="MK">Macedonian</option>
+                        <option value="MS">Malay</option>
+                        <option value="ML">Malayalam</option>
+                        <option value="MT">Maltese</option>
+                        <option value="MI">Maori</option>
+                        <option value="MR">Marathi</option>
+                        <option value="MN">Mongolian</option>
+                        <option value="NE">Nepali</option>
+                        <option value="NO">Norwegian</option>
+                        <option value="FA">Persian</option>
+                        <option value="PL">Polish</option>
+                        <option value="PT">Portuguese</option>
+                        <option value="PA">Punjabi</option>
+                        <option value="QU">Quechua</option>
+                        <option value="RO">Romanian</option>
+                        <option value="RU">Russian</option>
+                        <option value="SM">Samoan</option>
+                        <option value="SR">Serbian</option>
+                        <option value="SK">Slovak</option>
+                        <option value="SL">Slovenian</option>
+                        <option value="ES">Spanish</option>
+                        <option value="SW">Swahili</option>
+                        <option value="SV">Swedish </option>
+                        <option value="TA">Tamil</option>
+                        <option value="TT">Tatar</option>
+                        <option value="TE">Telugu</option>
+                        <option value="TH">Thai</option>
+                        <option value="BO">Tibetan</option>
+                        <option value="TO">Tonga</option>
+                        <option value="TR">Turkish</option>
+                        <option value="UK">Ukrainian</option>
+                        <option value="UR">Urdu</option>
+                        <option value="UZ">Uzbek</option>
+                        <option value="VI">Vietnamese</option>
+                        <option value="CY">Welsh</option>
+                        <option value="XH">Xhosa</option>
+                    </select>
+                </div>
+                <!--End form group-->
+                <div class="userFormGroup">
+                    <label class="labelText" for="">Phone</label> <br>
+                    <input class="userInput" type="text">
+                </div>
+                <!--End form group-->
+                <div class="userFormGroup">
+                    <label class="labelText" for="">Website</label> <br>
+                    <input class="userInput" type="url">
+                </div>
+                <!--End form group-->
+            </form>
+        </div>
+        <!-- /// End User Information Area -->
+
+        <div class="paymentButtonInput">
+            <!-- User Edit Area -->
+        <div class="earningRangeArea">
+            <h1 class="earnignRangeHeadingText">Your Earnings</h1>
+            <div class="rangeArea">
+                <input class="rangeInput" type="range" value="643.47" min="1" max="1000" oninput="this.nextElementSibling.value = this.value">
+                <output class="rangeOutput">643.47 </output><span>$</span>
+            </div>
+        </div>
+        <div class="paymentProfileArea">
+            <div class="paymentProfilHeading">
+                <h1 class="profileHeadingText">Payment Profile</h1>
+                <h1 class="profileHeadingText">Transactions</h1>
+            </div>
+            <!-- copy item -->
+            <div class="profileEditArea">
+                <div class="flexBoxSix">
+                    <div class="iocnArea">
+                        <img src="assets/images/settings-page/id.svg" alt="icon">
+                    </div>
+                    <div class="profileTextArea">
+                        <h1 class="editHeading">Payment Profile ID</h1>
+                    </div>
+                    <div class="editAndNoticIconArea">
+                        <img src="assets/images/settings-page/notice.svg" alt="icon">
+                    </div>
+                </div>
+                <div class="editOptions">
+                    <input class="editInput" type="text" placeholder="2360923860938426098342068340986" style="cursor: not-allowed;">
+                </div>
+            </div>
+            <!-- /// End copy item -->
+            <!-- copy item -->
+            <div class="profileEditArea">
+                <div class="flexBoxSix">
+                    <div class="iocnArea">
+                        <img src="assets/images/settings-page/country.svg" alt="icon">
+                    </div>
+                    <div class="profileTextArea">
+                        <h1 class="editHeading">Country/Region</h1>
+                    </div>
+                    <div class="editAndNoticIconArea">
+                        <img src="assets/images/settings-page/notice.svg" alt="icon">
+                    </div>
+                </div>
+                <div class="editOptions">
+                    <input class="editInput" type="text" placeholder="Country">
+                </div>
+            </div>
+            <!-- /// End copy item -->
+            <!-- copy item -->
+            <div class="profileEditArea">
+                <div class="flexBoxSix">
+                    <div class="iocnArea">
+                        <img src="assets/images/settings-page/country.svg" alt="icon">
+                    </div>
+                    <div class="profileTextArea">
+                        <h1 class="editHeading">Name & Address</h1>
+                    </div>
+                    <div class="editAndNoticIconArea">
+                        <img src="assets/images/settings-page/notice.svg" alt="icon">
+                        <img style="margin-left: 5px; cursor: pointer;" src="assets/images/settings-page/edit.svg" alt="icon">
+                    </div>
+                </div>
+                <div class="editOptions">
+                    <input class="editInput" type="text" placeholder="Company name">
+                    <input class="editInput" type="text" placeholder="Employee XX">
+                    <input class="editInput" type="text" placeholder="Foodstreet 123">
+                    <input class="editInput" type="text" placeholder="ZIP City">
+                    <input class="editInput" type="text" placeholder="Country">
+                </div>
+            </div>
+            <!-- /// End copy item -->
+            <!-- copy item -->
+            <div class="profileEditArea">
+                <div class="flexBoxSix">
+                    <div class="iocnArea">
+                        <img src="assets/images/settings-page/country.svg" alt="icon">
+                    </div>
+                    <div class="profileTextArea">
+                        <h1 class="editHeading">Payment method</h1>
+                    </div>
+                    <div class="editAndNoticIconArea">
+                        <img src="assets/images/settings-page/notice.svg" alt="icon">
+                        <img style="margin-left: 5px; cursor: pointer;" src="assets/images/settings-page/edit.svg" alt="icon">
+                    </div>
+                </div>
+                <div class="editOptions">
+                    <input class="editInput" type="text" placeholder="Company name">
+                    <input class="editInput" type="text" placeholder="IBAN: DE12XX XXXX XXXX 34">
+                    <input class="editInput" type="text" placeholder="BIC:    NOONECARES">
+                </div>
+            </div>
+            <!-- /// End copy item -->
+        </div>
+        <!-- /// ENd User Edit Area -->
+        </div>
+    </div>
+    <!--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=End Here Main Body-=-=-=-=-=-=-=-=-=-=-=-=-=-=--->
+    <script>
+        var element = document.getElementById("myDIV");
+        document.getElementById("bars").addEventListener("click", () => {
+            element.classList.add("mystyle");
+            elementTwo.classList.remove("mystyleTwo");
+        });
+        var elementTwo = document.getElementById("myDIV");
+        document.getElementById("close").addEventListener("click", () => {
+            elementTwo.classList.add("mystyleTwo");
+            element.classList.remove("mystyle");
+        });
+
+    </script>
+    <!--=======================Input Form==========================-->
+    <script>
+        function getFile() {
+            document.getElementById("upfile").click();
+        }
+
+        function sub(obj) {
+            var file = obj.value;
+            var fileName = file.split("\\");
+            document.getElementById("yourBtn").innerHTML = fileName[fileName.length - 1];
+            document.myForm.submit();
+            event.preventDefault();
+        }
+
+    </script>
+    
+    
+    <!--=======================Top Nav Bar========================-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#userId").click(function() {
+                $(".startProfileArea").toggle();
+            });
+            // Analytics Botton
+            $(".settingsButton").click(function() {
+                $(".settingsButton").removeClass('listActive');
+                $(this).addClass('listActive');
+            });
+            $("#generalInfo").click(function(){
+                $(".paymentButtonInput").hide();
+                $(".userInformationFormArea").show();
+            });
+            $("#payment").click(function(){
+                $(".paymentButtonInput").show();
+                $(".userInformationFormArea").hide();
+               
+            });
+        });
+
+    </script>
+    <script src="assets/vendor/js/font-awsome.js"></script>
+    <!-- bootstrap link -->
+    <script src="assets/vendor/js/bootstrap.bundle.min.v5.0.2.js"></script>
+</body>
+
+</html>
